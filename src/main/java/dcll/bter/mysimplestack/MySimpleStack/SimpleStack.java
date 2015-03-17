@@ -23,7 +23,7 @@ public interface SimpleStack {
     /**
      * Looks at the object at the top of this stack without removing it from the stack.
      */
-    public Object peek() throws EmptyStackException;
+    public Item peek() throws EmptyStackException;
     /**
      * Removes the object at the top of this stack and returns that object as the value of this function.
      * @throwsEmptyStackException if this stack is empty.
