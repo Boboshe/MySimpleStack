@@ -14,6 +14,7 @@ public class SimpleStackImplTest {
     public void setUp() throws Exception {
         simpleStack = new SimpleStackImpl();
         System.out.println("setUp() s'execute avant chaque test");
+        //Un commentaire répondant à l'exigence #3
     }
 
     @Test
